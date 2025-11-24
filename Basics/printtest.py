@@ -1,1 +1,6 @@
-print("Hello world")
+print("what is the name of your city you born in?")
+city=input()
+print("What is your favorite thing in the world? ")
+thing=input()
+print(type(city))
+print("Your band name is", city + " " + thing)
